@@ -435,6 +435,105 @@ code {
   border-radius: 100px;
 }
 
+/* ─── ANIMATED DEMO ───────────────────────────────────────────── */
+.visual-anim-label {
+  position: relative;
+  height: 16px;
+  margin-bottom: 4px;
+}
+.val-avant, .val-apres {
+  position: absolute;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--pv-muted);
+}
+.anim-board { min-height: 130px; }
+
+/* Label fade in/out — 8s loop */
+.val-avant  { animation: lbl-avant  8s linear infinite; }
+.val-apres  { animation: lbl-apres  8s linear infinite; opacity: 0; }
+@keyframes lbl-avant {
+  0%,22%  { opacity: 1; }
+  32%,82% { opacity: 0; }
+  88%,100%{ opacity: 1; }
+}
+@keyframes lbl-apres {
+  0%,30%  { opacity: 0; }
+  42%,76% { opacity: 1; }
+  84%,100%{ opacity: 0; }
+}
+
+/* Saving badge */
+.anim-saving { animation: badge-show 8s linear infinite; opacity: 0; }
+@keyframes badge-show {
+  0%,44%  { opacity: 0; }
+  54%,74% { opacity: 1; }
+  82%,100%{ opacity: 0; }
+}
+
+/* Objects — before → after → (snap) → before */
+/* obj-a: 8%,8%,40%,20% → 2%,5%,40%,20% */
+.anim-obj-a {
+  left:8%; top:8%; width:40%; height:20%;
+  animation: move-a 8s linear infinite;
+}
+@keyframes move-a {
+  0%,25%  { left:8%;  top:8%;  width:40%; height:20%; }
+  50%,80% { left:2%;  top:5%;  width:40%; height:20%; }
+  86%,100%{ left:8%;  top:8%;  width:40%; height:20%; }
+}
+
+/* obj-b: 60%,5%,26%,30% → 2%,30%,24%,24% */
+.anim-obj-b {
+  left:60%; top:5%; width:26%; height:30%;
+  animation: move-b 8s linear infinite;
+}
+@keyframes move-b {
+  0%,25%  { left:60%; top:5%;  width:26%; height:30%; }
+  50%,80% { left:2%;  top:30%; width:24%; height:24%; }
+  86%,100%{ left:60%; top:5%;  width:26%; height:30%; }
+}
+
+/* obj-c: 8%,38%,30%,18% → 68%,5%,28%,20% */
+.anim-obj-c {
+  left:8%; top:38%; width:30%; height:18%;
+  animation: move-c 8s linear infinite;
+}
+@keyframes move-c {
+  0%,25%  { left:8%;  top:38%; width:30%; height:18%; }
+  50%,80% { left:68%; top:5%;  width:28%; height:20%; }
+  86%,100%{ left:8%;  top:38%; width:30%; height:18%; }
+}
+
+/* obj-d: 55%,44%,28%,16% → 44%,5%,22%,20% */
+.anim-obj-d {
+  left:55%; top:44%; width:28%; height:16%;
+  animation: move-d 8s linear infinite;
+}
+@keyframes move-d {
+  0%,25%  { left:55%; top:44%; width:28%; height:16%; }
+  50%,80% { left:44%; top:5%;  width:22%; height:20%; }
+  86%,100%{ left:55%; top:44%; width:28%; height:16%; }
+}
+
+/* obj-e: 40%,68%,42%,16% → 28%,30%,40%,20% */
+.anim-obj-e {
+  left:40%; top:68%; width:42%; height:16%;
+  animation: move-e 8s linear infinite;
+}
+@keyframes move-e {
+  0%,25%  { left:40%; top:68%; width:42%; height:16%; }
+  50%,80% { left:28%; top:30%; width:40%; height:20%; }
+  86%,100%{ left:40%; top:68%; width:42%; height:16%; }
+}
+
+/* Smooth easing on movement phases */
+.anim-obj-a { animation-timing-function: ease-in-out; }
+.anim-obj-b { animation-timing-function: ease-in-out; }
+.anim-obj-c { animation-timing-function: ease-in-out; }
+.anim-obj-d { animation-timing-function: ease-in-out; }
+.anim-obj-e { animation-timing-function: ease-in-out; }
+
 /* ─── SECTIONS ────────────────────────────────────────────────── */
 .section { padding: 96px 0; }
 .section-alt { background: var(--bg-alt); }
