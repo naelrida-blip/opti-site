@@ -374,14 +374,16 @@ code {
   cursor: default;
 }
 .preview-btn-primary {
-  padding: 4px 14px;
+  padding: 6px 0;
+  width: 100%;
   background: var(--pv-accent);
   border: none;
   border-radius: 3px;
   color: #fff;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   cursor: default;
+  text-align: center;
 }
 .preview-status {
   padding: 3px 8px;
