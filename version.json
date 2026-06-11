@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.0.0/OPTI-mac.zip",
-  "notes": "Première version publique"
+  "version": "1.1.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.1.0/OPTI-mac.zip",
+  "notes": "Correction du plan de travail infini (mode plaque forcé), rotation activée par défaut, mises à jour en ligne dans l'installeur et le panneau."
 }
