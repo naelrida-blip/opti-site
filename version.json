@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.1.1/OPTI-mac.zip",
-  "notes": "• Fenêtre récap des changements après chaque mise à jour\n• Plan de travail mis à jour (plus de plan de travail géant)\n• Meilleur remplissage : rotation des objets activée\n• Mises à jour par internet dans l'installeur et le panneau"
+  "version": "1.2.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.2.0/OPTI-mac.zip",
+  "notes": "• Les objets penchés sont remis droits automatiquement avant le rangement\n• Nouvelle case « Redresser les objets penchés » dans Réglages\n• Moins de place perdue sur le rouleau"
 }
