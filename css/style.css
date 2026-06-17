@@ -808,8 +808,14 @@ code {
 @media (max-width: 700px) {
   .nav-links { display: none; }
   .hero { padding: 56px 0 40px; }
-  .preview-panel { width: 160px; }
-  .preview-visual { display: none; }
+  /* Empile le panneau et l'animation verticalement au lieu de cacher l'animation */
+  .preview-body { flex-direction: column; }
+  .preview-panel {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--pv-border);
+  }
+  .preview-visual { padding: 14px; min-height: 170px; }
   .section { padding: 64px 0; }
   .features-grid { grid-template-columns: 1fr; }
   .steps::before { display: none; }
