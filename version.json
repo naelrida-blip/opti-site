@@ -1,5 +1,5 @@
 {
-  "version": "1.5.1",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.5.1/OPTI-mac.zip",
-  "notes": "• Ajoutez vos propres matières (nom, marque, largeur) directement dans le catalogue\n• Le choix de la famille est maintenant un vrai menu déroulant (＋ Autre famille… pour en créer une)\n• Matières marquées d'une étoile ★ et supprimables"
+  "version": "1.5.2",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.5.2/OPTI-mac.zip",
+  "notes": "• Favoris : épinglez vos matières (catalogue ou perso) et retrouvez-les via l'entrée « ★ Favoris » du menu Famille\n• Bouton « ☆ Ajouter aux favoris » sous la liste des produits ; rebouton pour retirer\n• Repères : ★ = favori, « · perso » = matière ajoutée par vous"
 }
