@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.4.0/OPTI-mac.zip",
-  "notes": "• Le panneau s'appelle désormais OPPTII (même nom que le site opptii.ch)\n• Aucune autre modification : mêmes fonctionnalités, mise à jour automatique"
+  "version": "1.5.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.5.0/OPTI-mac.zip",
+  "notes": "• Ajoutez vos propres matières (nom, marque, largeur) directement dans le catalogue\n• Elles sont enregistrées, repérées par une étoile ★ et supprimables\n• Mise à jour automatique comme d'habitude"
 }
