@@ -1,5 +1,5 @@
 {
-  "version": "1.5.2",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.5.2/OPTI-mac.zip",
-  "notes": "• Favoris : épinglez vos matières (catalogue ou perso) et retrouvez-les via l'entrée « ★ Favoris » du menu Famille\n• Bouton « ☆ Ajouter aux favoris » sous la liste des produits ; rebouton pour retirer\n• Repères : ★ = favori, « · perso » = matière ajoutée par vous"
+  "version": "1.6.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.6.0/OPTI-mac.zip",
+  "notes": "• Nouvelle option « Largeur du plan de travail » : optimisez directement dans la largeur du plan de travail actif d'Illustrator (Catalogue → Options de format)\n• Le panneau peut désormais afficher des messages d'information ponctuels"
 }
