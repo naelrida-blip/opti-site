@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.6.0/OPTI-mac.zip",
-  "notes": "• Nouvelle option « Largeur du plan de travail » : optimisez directement dans la largeur du plan de travail actif d'Illustrator (Catalogue → Options de format)\n• Le panneau peut désormais afficher des messages d'information ponctuels"
+  "version": "1.7.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.7.0/OPTI-mac.zip",
+  "notes": "• Mise à jour en un clic : le bouton « Mettre à jour » ferme Illustrator, installe la nouvelle version et rouvre Illustrator automatiquement\n• Nouvelle option « Largeur du plan de travail » (v1.6.0) : optimisez directement dans la largeur du plan de travail actif"
 }
