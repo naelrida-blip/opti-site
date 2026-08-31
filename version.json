@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.7.0/OPTI-mac.zip",
-  "notes": "• Mise à jour en un clic : le bouton « Mettre à jour » ferme Illustrator, installe la nouvelle version et rouvre Illustrator automatiquement\n• Nouvelle option « Largeur du plan de travail » (v1.6.0) : optimisez directement dans la largeur du plan de travail actif"
+  "version": "1.8.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.8.0/OPTI-mac.zip",
+  "notes": "• Plus de blocage quand il n'y a plus de place en dessous : OPPTII ouvre automatiquement une nouvelle colonne à droite et y range la suite des plans de travail\n• L'optimisation démarre là où le canevas offre le plus de place\n• Le rapport indique le nombre de colonnes créées"
 }
