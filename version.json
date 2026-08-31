@@ -1,5 +1,5 @@
 {
-  "version": "1.8.0",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.8.0/OPTI-mac.zip",
-  "notes": "• Plus de blocage quand il n'y a plus de place en dessous : OPPTII ouvre automatiquement une nouvelle colonne à droite et y range la suite des plans de travail\n• L'optimisation démarre là où le canevas offre le plus de place\n• Le rapport indique le nombre de colonnes créées"
+  "version": "1.8.1",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.8.1/OPTI-mac.zip",
+  "notes": "• Correctif important : la v1.8.0 pouvait ne rien placer du tout\n• OPPTII ne suppose plus où s'arrête la zone de travail d'Illustrator : il pose le plan de travail pour de vrai, et réessaie en colonne à côté si c'est refusé\n• Message clair quand ça bloque : « pas assez de place »"
 }
