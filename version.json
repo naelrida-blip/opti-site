@@ -1,5 +1,5 @@
 {
-  "version": "1.8.1",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.8.1/OPTI-mac.zip",
-  "notes": "• Correctif important : la v1.8.0 pouvait ne rien placer du tout\n• OPPTII ne suppose plus où s'arrête la zone de travail d'Illustrator : il pose le plan de travail pour de vrai, et réessaie en colonne à côté si c'est refusé\n• Message clair quand ça bloque : « pas assez de place »"
+  "version": "1.8.2",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.8.2/OPTI-mac.zip",
+  "notes": "• Correctif : les objets pouvaient se retrouver à côté de leur plaque, ou une plaque manquer alors qu'il restait de la place\n• Le contenu de chaque plaque est maintenant centré"
 }
