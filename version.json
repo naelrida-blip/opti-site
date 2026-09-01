@@ -1,5 +1,12 @@
 {
   "version": "1.8.2",
   "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.8.2/OPTI-mac.zip",
-  "notes": "• Correctif : les objets pouvaient se retrouver à côté de leur plaque, ou une plaque manquer alors qu'il restait de la place\n• Le contenu de chaque plaque est maintenant centré"
+  "notes": "• Correctif : les objets pouvaient se retrouver à côté de leur plaque, ou une plaque manquer alors qu'il restait de la place\n• Le contenu de chaque plaque est maintenant centré",
+  "announce": {
+    "id": "bienvenue-2026-09-01",
+    "title": "OPPTII",
+    "subtitle": "",
+    "message": "Bienvenue chez OPPTII",
+    "sound": "Glass"
+  }
 }
