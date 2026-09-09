@@ -3,6 +3,13 @@
    Thème clair par défaut, thème sombre via [data-theme="dark"]
 ═══════════════════════════════════════════════════════════════ */
 
+/* ─── POLICE DE MARQUE : Alaska (newglyph) ─── */
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Regular.woff2')  format('woff2'); font-weight:400; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Medium.woff2')   format('woff2'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-SemiBold.woff2') format('woff2'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Bold.woff2')     format('woff2'); font-weight:700; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Black.woff2')    format('woff2'); font-weight:800 900; font-style:normal; font-display:swap; }
+
 /* ─── VARIABLES ─────────────────────────────────────────────── */
 :root {
   --bg:           #ffffff;
@@ -26,7 +33,7 @@
   --radius:       8px;
   --radius-lg:    12px;
   --radius-xl:    20px;
-  --font:         'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font:         'Alaska', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Preview panel (dark toujours) */
   --pv-bg:        #1e1e2e;
