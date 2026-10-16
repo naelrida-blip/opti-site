@@ -63,6 +63,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+/* ─── DÉMO VIDÉO : CHAPITRES ─────────────────────────────────── */
+const demoVideo = document.getElementById('demoVideo');
+const chapters  = Array.from(document.querySelectorAll('.video-chapter'));
+
+if (demoVideo && chapters.length) {
+  const seek = t => {
+    // Avant le chargement des infos de la vidéo, le saut serait ignoré
+    if (demoVideo.readyState >= 1) demoVideo.currentTime = t;
+    else demoVideo.addEventListener('loadedmetadata', () => { demoVideo.currentTime = t; }, { once: true });
+    demoVideo.play().catch(() => {});
+  };
+
+  chapters.forEach(btn => {
+    btn.addEventListener('click', () => seek(Number(btn.dataset.t)));
+  });
+
+  // Surligner le chapitre en cours de lecture
+  demoVideo.addEventListener('timeupdate', () => {
+    let current = chapters[0];
+    chapters.forEach(btn => {
+      if (demoVideo.currentTime >= Number(btn.dataset.t)) current = btn;
+    });
+    chapters.forEach(btn => btn.classList.toggle('active', btn === current));
+  });
+}
+
 /* ─── ANIMATION D'APPARITION ─────────────────────────────────── */
 const fadeObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {

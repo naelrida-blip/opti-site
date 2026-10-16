@@ -4,11 +4,11 @@
 ═══════════════════════════════════════════════════════════════ */
 
 /* ─── POLICE DE MARQUE : Alaska (newglyph) ─── */
-@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Regular.woff2')  format('woff2'); font-weight:400; font-style:normal; font-display:swap; }
-@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Medium.woff2')   format('woff2'); font-weight:500; font-style:normal; font-display:swap; }
-@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-SemiBold.woff2') format('woff2'); font-weight:600; font-style:normal; font-display:swap; }
-@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Bold.woff2')     format('woff2'); font-weight:700; font-style:normal; font-display:swap; }
-@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Black.woff2')    format('woff2'); font-weight:800 900; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Regular.woff2?v=20261016')  format('woff2'); font-weight:400; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Medium.woff2?v=20261016')   format('woff2'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-SemiBold.woff2?v=20261016') format('woff2'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Bold.woff2?v=20261016')     format('woff2'); font-weight:700; font-style:normal; font-display:swap; }
+@font-face { font-family:'Alaska'; src:url('../fonts/Alaska-Black.woff2?v=20261016')    format('woff2'); font-weight:800 900; font-style:normal; font-display:swap; }
 
 /* ─── VARIABLES ─────────────────────────────────────────────── */
 :root {
@@ -570,6 +570,60 @@ code {
   margin: 0 auto;
 }
 
+/* ─── DÉMO VIDÉO ──────────────────────────────────────────────── */
+.video-frame {
+  max-width: 860px;
+  margin: 0 auto;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg), 0 0 0 1px var(--border);
+  border: 1px solid var(--border);
+  background: var(--pv-bg);
+}
+.video-frame video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--pv-bg);
+}
+.video-chapters {
+  max-width: 860px;
+  margin: 24px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+}
+.video-chapter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1.5px solid var(--border);
+  border-radius: 100px;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.video-chapter:hover { color: var(--text); border-color: var(--text-dim); }
+.video-chapter.active {
+  color: var(--accent-dark);
+  background: var(--accent-light);
+  border-color: var(--accent);
+}
+[data-theme="dark"] .video-chapter.active { color: var(--accent); }
+.video-chapter-time {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ─── FEATURES ────────────────────────────────────────────────── */
 .features-grid {
   display: grid;
@@ -825,6 +879,8 @@ code {
   .preview-visual { padding: 14px; min-height: 170px; }
   .section { padding: 64px 0; }
   .features-grid { grid-template-columns: 1fr; }
+  .video-frame { border-radius: var(--radius-lg); }
+  .video-chapter { font-size: 13px; padding: 6px 12px; }
   .steps::before { display: none; }
   .download-card { padding: 40px 24px; border-radius: var(--radius-xl); }
   .footer-inner { flex-direction: column; text-align: center; }

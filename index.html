@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OPPTII — Optimiseur de placement pour impression vinyle</title>
   <meta name="description" content="OPPTII est une extension Adobe Illustrator qui optimise automatiquement le placement de vos objets sur vos rouleaux de vinyle. Réduisez vos chutes, gagnez du temps.">
-  <link rel="preload" as="font" type="font/woff2" href="fonts/Alaska-Regular.woff2" crossorigin>
-  <link rel="preload" as="font" type="font/woff2" href="fonts/Alaska-Black.woff2" crossorigin>
-  <link rel="stylesheet" href="css/style.css?v=20260909">
+  <link rel="preload" as="font" type="font/woff2" href="fonts/Alaska-Regular.woff2?v=20261016" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="fonts/Alaska-Black.woff2?v=20261016" crossorigin>
+  <link rel="stylesheet" href="css/style.css?v=20261016">
 </head>
 <body>
 
@@ -16,6 +16,7 @@
     <div class="nav-inner container">
       <a href="#" class="nav-logo">OPPTII</a>
       <div class="nav-links">
+        <a href="#demo">Démo</a>
         <a href="#fonctionnalites">Fonctionnalités</a>
         <a href="#installation">Installation</a>
         <a href="#faq">FAQ</a>
@@ -41,12 +42,15 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           Télécharger
         </a>
-        <a href="#fonctionnalites" class="btn btn-ghost btn-lg">Voir les fonctionnalités</a>
+        <a href="#demo" class="btn btn-ghost btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+          Voir la démo
+        </a>
       </div>
       <div class="hero-meta">
         <span>Adobe Illustrator 2022+</span>
         <span>·</span>
-        <span>v1.8.1</span>
+        <span>v1.8.2</span>
         <span>·</span>
         <span>par Nael Rida</span>
       </div>
@@ -118,6 +122,36 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ DÉMO VIDÉO ═════════════════════════════ -->
+  <section class="section section-alt" id="demo">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Démo</div>
+        <h2 class="section-title">OPPTII en action</h2>
+        <p class="section-subtitle">À quoi sert OPPTII et comment l'utiliser, en une minute : du fichier en désordre au rouleau optimisé.</p>
+      </div>
+
+      <div class="video-frame">
+        <video id="demoVideo" controls preload="metadata" playsinline width="1920" height="1080"
+               poster="video/opptii-demo-v1.jpg" aria-label="Vidéo de démonstration d'OPPTII">
+          <source src="video/opptii-demo-v1.mp4" type="video/mp4">
+          Votre navigateur ne peut pas lire cette vidéo : <a href="video/opptii-demo-v1.mp4">la télécharger</a>.
+        </video>
+      </div>
+
+      <!-- Chapitres : data-t = début du chapitre, en secondes -->
+      <ol class="video-chapters" aria-label="Chapitres de la vidéo">
+        <li><button type="button" class="video-chapter" data-t="0"><span class="video-chapter-time">0:00</span>Le problème</button></li>
+        <li><button type="button" class="video-chapter" data-t="10.5"><span class="video-chapter-time">0:10</span>Ouvrir OPPTII</button></li>
+        <li><button type="button" class="video-chapter" data-t="14.5"><span class="video-chapter-time">0:14</span>Choisir sa matière</button></li>
+        <li><button type="button" class="video-chapter" data-t="23"><span class="video-chapter-time">0:23</span>Sélectionner les objets</button></li>
+        <li><button type="button" class="video-chapter" data-t="31"><span class="video-chapter-time">0:31</span>Marges et rotation</button></li>
+        <li><button type="button" class="video-chapter" data-t="38"><span class="video-chapter-time">0:38</span>Optimiser</button></li>
+        <li><button type="button" class="video-chapter" data-t="49"><span class="video-chapter-time">0:49</span>Le rapport</button></li>
+      </ol>
     </div>
   </section>
 
@@ -230,7 +264,7 @@
       <div class="install-cta">
         <a href="#telecharger" class="btn btn-primary btn-lg">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Télécharger OPPTII v1.8.1
+          Télécharger OPPTII v1.8.2
         </a>
         <p class="install-req">Adobe Illustrator 2022 (v26) ou plus récent</p>
       </div>
@@ -319,7 +353,7 @@
         <h2>Téléchargez OPPTII</h2>
         <p>Accès réservé pendant la phase de lancement : le téléchargement est protégé par un mot de passe.</p>
         <div class="download-meta">
-          <span>Version 1.8.1</span>
+          <span>Version 1.8.2</span>
           <span>·</span>
           <span>Adobe Illustrator 2022+</span>
         </div>
@@ -345,6 +379,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=20261016"></script>
 </body>
 </html>
