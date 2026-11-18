@@ -1,12 +1,5 @@
 {
-  "version": "1.9.0",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.9.0/OPTI-mac.zip",
-  "notes": "• Nouveau : « Multiplier » — un objet en autant d'exemplaires que voulu, ou de quoi remplir une longueur de rouleau\n• Rien de sélectionné : plus aucun objet déplacé par erreur\n• Deux optimisations de suite : la seconde se pose à côté\n• Marges exactes, et moins de vinyle perdu sur les gros travaux",
-  "announce": {
-    "id": "bienvenue-2026-09-01",
-    "title": "OPPTII",
-    "subtitle": "",
-    "message": "Bienvenue chez OPPTII",
-    "sound": "Glass"
-  }
+  "version": "1.9.1",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.9.1/OPTI-mac.zip",
+  "notes": "• Une notification à chaque ouverture : « Nouvelle version disponible » quand une mise à jour existe, sinon « Bienvenue sur OPPTII »\n• Nouveau : « Multiplier » — un objet en autant d'exemplaires que voulu, ou de quoi remplir une longueur de rouleau\n• Rien de sélectionné : plus aucun objet déplacé par erreur\n• Deux optimisations de suite : la seconde se pose à côté\n• Marges exactes, et moins de vinyle perdu sur les gros travaux"
 }
