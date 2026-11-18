@@ -1,5 +1,6 @@
 {
-  "version": "1.9.1",
-  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.9.1/OPTI-mac.zip",
-  "notes": "• Une notification à chaque ouverture : « Nouvelle version disponible » quand une mise à jour existe, sinon « Bienvenue sur OPPTII »\n• Nouveau : « Multiplier » — un objet en autant d'exemplaires que voulu, ou de quoi remplir une longueur de rouleau\n• Rien de sélectionné : plus aucun objet déplacé par erreur\n• Deux optimisations de suite : la seconde se pose à côté\n• Marges exactes, et moins de vinyle perdu sur les gros travaux"
+  "version": "1.10.0",
+  "url": "https://github.com/naelrida-blip/opti-site/releases/download/v1.10.0/OPTI-mac.zip",
+  "signature": "MEUCIQCHqzsUgjgLV0mK4+rqy+XulkI9Uw8IiGl7R5FY9rQO9wIgW/eRXnwPqIBS9eaYATkUhCSRPcLuPb/PE0uLsIPYv/I=",
+  "notes": "• Ronds et ovales emboîtés : jusqu'à 9 % de rouleau en moins sur les travaux pleins de ronds\n• Nouvelle option « Compter l'épaisseur des contours » : les contours épais ne se touchent plus\n• Rapport : surface réelle des objets (un rond n'y compte plus pour un carré) et longueur de matière utilisée\n• L'aperçu suit la sélection d'Illustrator tout seul, plus besoin de cliquer sur ↻\n• 7 matières ajoutées au catalogue : Oracal 641, 651, 631, Avery 700, Avery MPI 1105, 3M IJ40, Orajet 3951RA+\n• Mises à jour plus sûres : chaque version est signée et vérifiée, et le panneau n'est jamais perdu si l'installation échoue"
 }
